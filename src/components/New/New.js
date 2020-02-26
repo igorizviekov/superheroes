@@ -5,7 +5,7 @@ import axios from "axios";
 import Spinner from "../../UI/Spinner/Spinner";
 import "./New.css";
 import Form from "../Form/Form";
-export default function New(props) {
+export default function New() {
   const [loading, setLoading] = useState(true);
   const history = useHistory();
   const [heroes, setHeroes] = useState("");
@@ -36,6 +36,7 @@ export default function New(props) {
   };
   let imageList = heroes.map(hero => (
     <img
+      role="presentation"
       src={hero}
       alt={hero[0]}
       key={hero}
