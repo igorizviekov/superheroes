@@ -1,0 +1,11 @@
+.Button {
+  font-weight: bold;
+  font-size: large;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+.Button:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}

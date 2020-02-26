@@ -1,0 +1,33 @@
+.Hero {
+  width: 100%;
+}
+.Hero h1 {
+  color: white;
+}
+.Hero img {
+  height: 12em;
+}
+
+.Hero section {
+  background-color: white;
+  padding: 0.5em 1em;
+  margin: 1em;
+}
+.Hero button {
+  font-weight: bold;
+}
+.Buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.List {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+@media (max-width: 500px) {
+  .List {
+    grid-template-columns: 1fr;
+  }
+}

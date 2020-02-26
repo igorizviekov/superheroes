@@ -1,0 +1,15 @@
+.Detailed img {
+  height: 15em;
+}
+.Detailed h1 {
+  color: white;
+}
+.Detailed section {
+  width: 80%;
+  background-color: white;
+  text-align: left;
+  padding: 2em;
+  margin: auto;
+  margin-bottom: 1em;
+  margin-top: 0.5em;
+}
